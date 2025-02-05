@@ -27,12 +27,12 @@
         <nav class="navbar navbar-expand">
             <div class="container">
                 <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/uploads/1694715053_159c16498d0e9a0478c3.png" alt="<?php echo esc_html(bloginfo('name')); ?>" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/uploads/1694715053_159c16498d0e9a0478c3.png" class="img-fluid">
                 </a>
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item menuclose d-lg-none"><a href="javascript:void(0);" class="menuicon"><i class="bi bi-x-lg"></i></a></li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo is_front_page() ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/')); ?>"><span class="rolltxt">Home</span></a>
+                        <a class="nav-link <?php echo is_page('home') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/home')); ?>"><span class="rolltxt">Home</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php echo is_page('about-us') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/about-us')); ?>"><span class="rolltxt">About Us</span></a>
