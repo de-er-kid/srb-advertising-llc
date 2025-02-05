@@ -1,2 +1,2 @@
 # srb-advertising-llc
-WordPress theme for srbadvertisingllc.com
+ WordPress Theme for srbadvertisingllc.com
